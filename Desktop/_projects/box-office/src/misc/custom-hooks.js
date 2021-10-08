@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 import { useReducer, useEffect } from 'react';
 
 function showsReducer(prevState, action) {
@@ -7,7 +9,7 @@ function showsReducer(prevState, action) {
     }
 
     case 'REMOVE': {
-      return prevState.filter(showId => ShowId !== action.showId);
+      return prevState.filter(showId => showId !== action.showId);
     }
 
     default:
