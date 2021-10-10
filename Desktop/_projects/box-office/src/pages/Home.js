@@ -89,7 +89,7 @@ const Home = () => {
           Search
         </button>
       </SearchButtonWrapper>
-      ;{renderResults()};
+      {renderResults()}
     </MainPageLayout>
   );
 };
