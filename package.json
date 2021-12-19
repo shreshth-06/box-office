@@ -1,6 +1,6 @@
 {
   "homepage": "https://shreshth-06.github.io/box-office",
-  "name": "tic-tac",
+  "name": "box-office",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
